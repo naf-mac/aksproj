@@ -1,4 +1,5 @@
 #!/bin/bash
+# https://trstringer.com/cheap-kubernetes-in-azure/
 
 RESOURCE_GROUP="$1"
 CLUSTER="$2"
