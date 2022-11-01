@@ -1,0 +1,13 @@
+[Unit]
+Description=Stop trstringeraks1 service
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStop=/usr/bin/bash \
+    /usr/local/bin/stop-aks-if-running.sh \
+    <resource_group> \
+    <aks>
+
+[Install]
+WantedBy=multi-user.target
