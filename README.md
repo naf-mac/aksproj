@@ -1,1 +1,2 @@
 # aksproj
+kubectl get nodes
